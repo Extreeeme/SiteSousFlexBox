@@ -1,0 +1,54 @@
+
+*{
+	padding: 0px;
+	margin: 0px;
+	border : none;
+}
+
+body {
+  display: flex;
+  flex-direction: column; /* affichage vertical */
+  min-height: 100vh;
+}
+
+#contenu {
+  flex: auto; /* occupe la hauteur restante */
+  display: flex; 
+}
+
+.centre{
+  display: flex;
+  flex-direction: column;
+}
+
+#texte{
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 5%;
+}
+
+article {
+  flex: 1; /* occupe la largeur restante */
+  order: 1;
+  background: #7ec791;
+  padding-top: 20px;
+  display: flex;
+}
+
+h2{
+  padding-bottom: 20px;
+}
+nav {
+  order: 0; /* nav s'affiche en premier */
+  padding-right: 10px;
+  background: #CEBFFF;
+}
+
+header {
+  background: #fff3b7;
+  padding: 20px;
+}
+
+footer {
+  background: #fff3b7;
+}
